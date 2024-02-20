@@ -67,7 +67,7 @@ We still need one last element: a tag. As usual, you can start creating one by c
 
 Add the **All Pages** trigger and click on **Save** to continue.
 
-![](/assets/images/gtm-tagging-server-hosting/get-started/create-google-analytics-4-page-view-at-server-side.webp)
+![create a GA4 server tag](/assets/images/gtm-tagging-server-hosting/get-started/create-google-analytics-4-page-view-at-server-side.webp)
 
 ## Step 4: Start a Preview Session
 
@@ -77,7 +77,7 @@ As soon as you interact with your site, you will see various events coming into 
 
 If you look at a triggered tag in detail, you have the opportunity to view the outgoing HTTP request.
 
-![](/assets/images/gtm-tagging-server-hosting/get-started/preview-mode-of-server-container.webp)
+![click on the outgoing HTTP-request to get more details](/assets/images/gtm-tagging-server-hosting/get-started/preview-mode-of-server-container.webp)
 
 ## Next Steps
 
