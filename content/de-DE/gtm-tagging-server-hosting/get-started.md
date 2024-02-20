@@ -25,7 +25,7 @@ Lege den Namen und Typ des Containers in dem sich öffnenden Fenster (Slide-Over
 
 Wähle als Zielplattform **Server**. Anschließend kannst du den Container erstellen, indem du oben rechts auf **Erstellen** klickst.
 
-![erstelle einen Servercontainer durch die Auswahl der Zielplatform Server](/assets/images/gtm-tagging-server-hosting/get-started/create-gtm-server-container_2560_1240.webp)
+![erstelle einen Servercontainer durch die Auswahl der Zielplatform Server](/assets/images/gtm-tagging-server-hosting/get-started/create-gtm-server-container_2560x1240.webp)
 
 Du wirst automatisch zum neu erstellten Servercontainer weitergeleitet. Es gilt jetzt die Wahl zu Treffen, wie deine Tagging-Server bereitgestellt werden. Wähle hier **Tagging-Server manuell bereitstellen** und **kopiere** die sogenannte _Containerkonfiguration_.
 

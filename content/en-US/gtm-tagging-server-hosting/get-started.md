@@ -25,7 +25,7 @@ In the window that opens (slide-over), you must specify the name and type of con
 
 As target platform choose **Server**. Afterwards you are ready to create the container by clicking on **Create** in the top right corner.
 
-![create a server container by selecting the platform server](/assets/images/gtm-tagging-server-hosting/get-started/create-gtm-server-container_2560_1240.webp)
+![create a server container by selecting the platform server](/assets/images/gtm-tagging-server-hosting/get-started/create-gtm-server-container_2560x1240.webp)
 
 You will automatically be redirected to the newly created Server Container. You now need to decide how you will deploy your tagging servers. Here select **Manually provision tagging server** and **copy** the so-called _Container Config(uration)_.
 
