@@ -17,7 +17,7 @@ Dieser Leitfaden führt dich durch die Einrichtung und Bereitstellung deines ers
 
 ## Schritt 1: Erstellen Sie einen Servercontainer
 
-Lass uns mit der Erstellung des Google Tag Manager Server Containers beginnen. Öffnen dazu https://tagmanager.google.com und starte den Erstellungsprozess über die drei Punkte oben rechts beim gewünschten Konto. Wählen Sie im Kontextmenü die Aktion **Container erstellen**.
+Lass uns mit der Erstellung des Google Tag Manager Server Containers beginnen. Öffnen dazu [https://tagmanager.google.com](https://tagmanager.google.com) und starte den Erstellungsprozess über die drei Punkte oben rechts beim gewünschten Konto. Wählen Sie im Kontextmenü die Aktion **Container erstellen**.
 
 ![starte die Erstellung eines neuen Containers in GTM](/assets/images/gtm-tagging-server-hosting/get-started/open-container-creation-dialog_2560x880.webp)
 

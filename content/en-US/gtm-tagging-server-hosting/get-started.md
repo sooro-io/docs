@@ -17,7 +17,7 @@ This guide will instruct you through setting up and deploying your first GTM Tag
 
 ## Step 1: Create a Server Container
 
-Let us start with the creation of the Google Tag Manager Server Container. Open https://tagmanager.google.com and start the creation process by using the three dots at the top right of the desired account. In the context menu choose the action **Create Container**.
+Let us start with the creation of the Google Tag Manager Server Container. Open [https://tagmanager.google.com](https://tagmanager.google.com) and start the creation process by using the three dots at the top right of the desired account. In the context menu choose the action **Create Container**.
 
 ![start the container creation in GTM](/assets/images/gtm-tagging-server-hosting/get-started/open-container-creation-dialog_2560x880.webp)
 
