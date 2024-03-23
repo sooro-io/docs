@@ -15,9 +15,9 @@ Dieser Leitfaden führt dich durch die Einrichtung und Bereitstellung deines ers
 3. GA4-Konto mit einem Web-Datenstream
 4. Sooro-Konto
 
-## Schritt 1: Erstellen Sie einen Servercontainer
+## Schritt 1: Erstelle einen Servercontainer
 
-Lass uns mit der Erstellung des Google Tag Manager Server Containers beginnen. Öffnen dazu [https://tagmanager.google.com](https://tagmanager.google.com) und starte den Erstellungsprozess über die drei Punkte oben rechts beim gewünschten Konto. Wählen Sie im Kontextmenü die Aktion **Container erstellen**.
+Lass uns mit der Erstellung des Server Containers im Google Tag Manager beginnen. Öffnen dazu [https://tagmanager.google.com](https://tagmanager.google.com) und starte den Erstellungsprozess über die drei Punkte oben rechts beim gewünschten Konto. Wählen im Kontextmenü die Aktion **Container erstellen**.
 
 ![starte die Erstellung eines neuen Containers in GTM](/assets/images/gtm-tagging-server-hosting/get-started/open-container-creation-dialog_2560x880.webp)
 
@@ -37,7 +37,9 @@ Bei der Containerkonfiguration handelt es sich um in Base64 kodierte Information
 
 Öffne [https://www.sooro.io/app/organizations](https://www.sooro.io/app/organizations) und wähle die Organisation aus, für die du den Tagging-Server erstellen möchtest. Auf der folgenden Seite kannst du mit der Erstellung beginnen, indem du in der Mitte des Bildschirms auf die Schaltfläche **Set up your first GTM Tagging Server** klicks. Falls du bereits einen GTM Tagging Server hast, verwenden den rechts oben den Button **New GTM Tagging Server**.
 
-Gebe als erstes den **Namen** des GTM Tagging Servers an. Um die Zuordnung zu erleichtern, empfehlen wir dir, den selben Namen zu verwenden den du im GTM verwendest. Die gewählte **Server Location** sollte in der Nähe deiner Kunden liegen, damit Anfragen schneller bearbeitet werden. Fügen unter **Container Configuration** den Wert ein, den du am Ende des ersten Schritts kopiert hast. Falls dieser nicht mehr verfügbar ist, kannst du die Containerkonfiguration jederzeit in deinem GTM Server Container finden. Gehe dafür auf **Verwaltung** > **Containereinstellungen** > **Tagging-Server einrichten** > **Tagging-Server manuell bereitstellen**.
+Gebe als erstes den **Namen** des GTM Tagging Servers an. Um die Zuordnung zu erleichtern, empfehlen wir dir, den selben Namen zu verwenden den du im GTM verwendest. Die gewählte **Server Location** sollte in der Nähe deiner Kunden liegen, damit Anfragen schneller bearbeitet werden.
+
+Fügen unter **Container Configuration** den Wert ein, den du am Ende des ersten Schritts kopiert hast. Falls dieser nicht mehr verfügbar ist, kannst du die Containerkonfiguration jederzeit in deinem GTM Server Container finden. Gehe dafür auf **Verwaltung** > **Containereinstellungen** > **Tagging-Server einrichten** > **Tagging-Server manuell bereitstellen**.
 
 ![erstelle einen GTM Tagging Server](/assets/images/gtm-tagging-server-hosting/get-started/create-gtm-tagging-server_2560x1440.webp)
 

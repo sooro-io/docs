@@ -37,7 +37,9 @@ The container config is information encoded in base64, which, in addition to the
 
 Open [https://www.sooro.io/app/organizations](https://www.sooro.io/app/organizations) and select the organization for which you want to create the Tagging Server. On the following page you can start creating using the button **Set up your first GTM Tagging Server** in the middle of the screen or the **New GTM Tagging Server** at the top right corner.
 
-First, enter the **Name** of the GTM Tagging Server here. We recommend that you use the same one that you used in GTM to make the assignment easier. The **Server Location** you choose should be close to your customers so that requests are processed faster. Under **Container Configuration** paste the value you copied at the end of the first step. If you no longer have the value: You can always find the container configuration in your GTM Server Container. Go to **Admin** > **Container Settings** > **Set Up Tagging Server** > **Deploy Tagging Server Manually**.
+First, enter the **Name** of the GTM Tagging Server here. We recommend that you use the same one that you used in GTM to make the assignment easier. The **Server Location** you choose should be close to your customers so that requests are processed faster.
+
+Under **Container Configuration** paste the value you copied at the end of the first step. If you no longer have the value: You can always find the container configuration in your GTM Server Container. Go to **Admin** > **Container Settings** > **Set Up Tagging Server** > **Deploy Tagging Server Manually**.
 
 ![create a GTM tagging server](/assets/images/gtm-tagging-server-hosting/get-started/create-gtm-tagging-server_2560x1440.webp)
 
