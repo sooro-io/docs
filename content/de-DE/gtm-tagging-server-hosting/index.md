@@ -15,6 +15,6 @@ Serverseitiges Tagging hilft dir dein Tracking zu verbessern, indem du dein Trac
 
 Ein geeignetes Mittel für den Einstieg in das serverseitige Tagging sind die Möglichkeiten des Google Tag Managers (GTM), genauer mittels Server Containern. Ähnlich wie in regulären Web Containern des GTM kannst du hier mittels Tags, Trigger, Variablen und Funktionen den Datenaustausch mit Dritten realisieren. Damit die Server Container genutzt werden können sind aber Tagging Server notwendig. Wir übernehmen für dich das Hosting dieser Server, sodass du dich voll auf die Integrationen konzentrieren kannst.
 
-Auf den folgenden Seiten findest du alles Notwendige, um direkt zu starten. In den [Ersten Schritten](/content/de-de/gtm-tagging-server-hosting/get-started) führen wir dich durch die Erstellung deines Tagging Server und leiten dich auch durch durch die Konfiguration im GTM. Im Anschluss bist du bereit, deine ersten serverseitigen Tags zu implementieren.
+Auf den folgenden Seiten findest du alles Notwendige, um direkt zu starten. In den [Ersten Schritten](/content/de-DE/gtm-tagging-server-hosting/get-started.md) führen wir dich durch die Erstellung deines Tagging Server und leiten dich auch durch durch die Konfiguration im GTM. Im Anschluss bist du bereit, deine ersten serverseitigen Tags zu implementieren.
 
 Solltest du an einer Stelle mal nicht weiterkommen oder Feedback für diese Dokumentation haben, so wende dich bitte an [support@sooro.io](mailto:support@sooro.io).
