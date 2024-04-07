@@ -46,13 +46,13 @@ Das Eindeutigkeitselement wird vorübergehend im window-Objekt des Browsers zwis
 
 Das Eindeutigkeitselement wird im localStorage des Browsers zwischengespeichert. Der Wert bleibt daher über mehrere Sitzungen und sogar über Tabs in deinem Browser hinweg gleich.
 
-<Blockqoute type="warning">
+<blockqoute type="warning">
 Wenn du die Option **persistent** verwendest, werden Informationen dauerhaft auf den Geräten von Endnutzern gespeichert. Es kann daher erforderlich sein, die Informationen in deinem Zustimmungsbanner und/oder deiner Datenschutzrichtlinie anzupassen, um die gesetzlichen Anforderungen zu erfüllen.
-</Blockqoute>
+</blockqoute>
 
-<Blockqoute type="tip">
+<blockqoute type="tip">
 Wenn du eine der beiden Caching-Option wählst, findest du den generierten Wert unter dem Schlüssel `gtmClientId` (entweder im window-Objekt oder im localStorage). Da der generierte Wert so etwas wie eine Client-ID ist, könnte er dir an anderer Stelle hilfreich sein.
-</Blockqoute>
+</blockqoute>
 
 ### Override Rules (Überschreibungsregeln)
 

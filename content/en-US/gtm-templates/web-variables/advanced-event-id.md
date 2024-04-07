@@ -44,13 +44,13 @@ The uniqueness element is temporarily cached in the window object of the browser
 **persistent**  
 The uniqueness element is cached in the localStorage of the browser. The value therefore remains the same across several sessions and even across tabs in the users browser.
 
-<Blockqoute type="warning">
+<blockqoute type="warning">
 If you use the **persistent** option, information is stored permanently on the user’s device. It may therefore be necessary to adapt the information in your consent banner and/or privacy policy to comply with legal requirements.
-</Blockqoute>
+</blockqoute>
 
-<Blockqoute type="tip">
+<blockqoute type="tip">
 If you choose a caching option, you will find the generated value under the `gtmClientId` key (either in the window object or the localStorage). Since the generated value is something like a client ID, it might help you in another place.
-</Blockqoute>
+</blockqoute>
 
 ### Override Rules
 
