@@ -38,20 +38,18 @@ Wenn nicht, kannst du auch die Option wählen, eine ID basierend auf einer Zufal
 
 #### Caching Behavior (Caching Verhalten)
 
-**temporary (temporär)**
-
-Das Eindeutigkeitselement wird vorübergehend im window-Objekt des Browsers zwischengespeichert. Es wird gelöscht, sobald du den Tab oder den Browser schließt.
-
-**persistent**
-
-Das Eindeutigkeitselement wird im localStorage des Browsers zwischengespeichert. Der Wert bleibt daher über mehrere Sitzungen und sogar über Tabs in deinem Browser hinweg gleich.
-
-<blockqoute type="warning">
-Wenn du die Option **persistent** verwendest, werden Informationen dauerhaft auf den Geräten von Endnutzern gespeichert. Es kann daher erforderlich sein, die Informationen in deinem Zustimmungsbanner und/oder deiner Datenschutzrichtlinie anzupassen, um die gesetzlichen Anforderungen zu erfüllen.
+<blockqoute type="tip" isSingleParagraph>
+Wenn du eine der beiden Caching-Option wählst, findest du den generierten Wert unter dem Schlüssel `gtmClientId` (entweder im window-Objekt oder im localStorage). Da der generierte Wert so etwas wie eine Client-ID ist, könnte er dir an anderer Stelle hilfreich sein.
 </blockqoute>
 
-<blockqoute type="tip">
-Wenn du eine der beiden Caching-Option wählst, findest du den generierten Wert unter dem Schlüssel `gtmClientId` (entweder im window-Objekt oder im localStorage). Da der generierte Wert so etwas wie eine Client-ID ist, könnte er dir an anderer Stelle hilfreich sein.
+- **temporary (temporär)**  
+  Das Eindeutigkeitselement wird vorübergehend im window-Objekt des Browsers zwischengespeichert. Es wird gelöscht, sobald du den Tab oder den Browser schließt.
+
+- **persistent**  
+  Das Eindeutigkeitselement wird im localStorage des Browsers zwischengespeichert. Der Wert bleibt daher über mehrere Sitzungen und sogar über Tabs in deinem Browser hinweg gleich.
+
+<blockqoute type="warning" isSingleParagraph>
+Wenn du die Option **persistent** verwendest, werden Informationen dauerhaft auf den Geräten von Endnutzern gespeichert. Es kann daher erforderlich sein, die Informationen in deinem Zustimmungsbanner und/oder deiner Datenschutzrichtlinie anzupassen, um die gesetzlichen Anforderungen zu erfüllen.
 </blockqoute>
 
 ### Override Rules (Überschreibungsregeln)
