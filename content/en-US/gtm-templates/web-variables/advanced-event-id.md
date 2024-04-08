@@ -28,15 +28,19 @@ If an element is not available, there is always a fallback. This ensures that a 
 
 ## Configuration
 
-Configuring the variable should be quick as there are only a few options. But they are powerful enough that you only need to create a single event ID variable in the entire GTM container.
+Configuring the variable should be quick as there are only a few options. But they are powerful enough that you only need to create a single event ID variable in your entire GTM container.
 
 ### Uniqness Element
 
-This element ensures that the event ID is unique. Ideally, there is a client ID in your tracking that you can use for this.
+This element ensures that the generated event IDs are unique. Ideally, there is a client ID in your tracking that you can use for this.
 
-If not, you can also choose the option to generate an ID based on a random number and a timestamp. We recommend that the uniqeness element is as static as possible for a single client. Thus, the template offers two options for caching. You can also disable caching completely if you have privacy concerns.
+If not, you can also choose the option to generate IDs based on a random number and a timestamp. We recommend that the uniqeness element is as static as possible for a single client. Thus, the template offers two options for caching. You can also disable caching completely if you have privacy concerns.
 
 #### Caching Options
+
+<blockqoute type="tip" isSingleParagraph>
+If you choose a caching option, you will find the generated value under the `gtmClientId` key (either in the window object or the localStorage). Since the generated value is something like a client ID, it might help you in another place.
+</blockqoute>
 
 - **temporary**  
   The uniqueness element is temporarily cached in the window object of the browser. It gets deleted as soon as the tab or browser will be closed.
@@ -44,12 +48,8 @@ If not, you can also choose the option to generate an ID based on a random numbe
 - **persistent**  
   The uniqueness element is cached in the localStorage of the browser. The value therefore remains the same across several sessions and even across tabs in the users browser.
 
-<blockqoute type="warning">
+<blockqoute type="warning" isSingleParagraph>
 If you use the **persistent** option, information is stored permanently on the user’s device. It may therefore be necessary to adapt the information in your consent banner and/or privacy policy to comply with legal requirements.
-</blockqoute>
-
-<blockqoute type="tip">
-If you choose a caching option, you will find the generated value under the `gtmClientId` key (either in the window object or the localStorage). Since the generated value is something like a client ID, it might help you in another place.
 </blockqoute>
 
 ### Override Rules

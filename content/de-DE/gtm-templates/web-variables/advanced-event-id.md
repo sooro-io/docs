@@ -49,7 +49,7 @@ Wenn du eine der beiden Caching-Option wählst, findest du den generierten Wert 
   Das Eindeutigkeitselement wird im localStorage des Browsers zwischengespeichert. Der Wert bleibt daher über mehrere Sitzungen und sogar über Tabs in deinem Browser hinweg gleich.
 
 <blockqoute type="warning" isSingleParagraph>
-Wenn du die Option **persistent** verwendest, werden Informationen dauerhaft auf den Geräten von Endnutzern gespeichert. Es kann daher erforderlich sein, die Informationen in deinem Zustimmungsbanner und/oder deiner Datenschutzrichtlinie anzupassen, um die gesetzlichen Anforderungen zu erfüllen.
+Wenn du die Option **persistent** verwendest, werden Informationen dauerhaft auf den Geräten von Endnutzern gespeichert. Es kann daher erforderlich sein, die Informationen in deinem Consent Banner und/oder deiner Datenschutzrichtlinie anzupassen, um die gesetzlichen Anforderungen zu erfüllen.
 </blockqoute>
 
 ### Override Rules (Überschreibungsregeln)
@@ -66,4 +66,4 @@ Du kannst hier so viele Einträge vornehmen, wie du möchtest, wenn du deine eig
 
 ## Gut zu wissen
 
-Im Code des Vorlage gibt es verschiedene Fallbacks, sodass immer eine Event ID generiert wird. Daher ist ein undefinierter Wert in einer deiner Eingaben kein Problem.
+Im Code der Vorlage gibt es verschiedene Fallbacks, sodass immer eine Event ID generiert wird. Daher ist Wert `undefined` in einer deiner Eingaben kein Problem.
